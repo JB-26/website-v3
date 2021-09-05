@@ -52,3 +52,12 @@
 Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
 [<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+
+<h1 align="center">
+  Website V3
+</h1>
+
+Welcome to version 3 of my personal website! Feel free to clone this repo and edit it to make your own!
+
+# What's new?
+This website is now built with Gatsby 3, instead of Gatsby 2.
