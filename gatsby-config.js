@@ -3,5 +3,7 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "Joshua Blewitt - IT Professional",
   },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-react-helmet`
+  ],
 };
