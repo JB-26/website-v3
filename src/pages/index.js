@@ -1,4 +1,9 @@
 import * as React from "react"
+//import React from "react"
+import Header from "../components/header"
+import Footer from "../components/footer"
+import Image from "../images/new_2021.jpg"
+import { Helmet } from "react-helmet"
 
 // styles
 const pageStyles = {

@@ -1,0 +1,131 @@
+html {
+    background-color: whitesmoke;
+    font-family: "AppleTea";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    /*ensures the page to be at least as tall as 100% of the viewport height */
+    min-height: 100vh;
+    /*prevents the page from being too narrow to be readable*/
+    min-width: 300px;
+    /*prevents the page from scrolling horizontally while preserving the usual vertical scroll */
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "AppleTea";
+    src: url("../fonts/AppleTea-z8R1a.ttf");
+}
+
+@font-face {
+    font-family: "VollkornRegular";
+    src: url("../fonts/VollkornRegular.ttf");
+}
+
+h2 {
+    text-align: center;
+    font-family: "AppleTea";
+}
+
+p {
+    font-family: "VollkornRegular";
+}
+
+/* header */
+
+a:link.blog {
+    text-decoration: none;
+    text-shadow: none;
+    color: black;
+  }
+
+a:visited.blog {
+    text-decoration: none;
+    text-shadow: none;
+    color: black;
+}
+
+#bolt {
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0px;
+    margin: 0px 0px 50px 0px;
+    background: #F4F4F4;
+}
+
+.header-item {
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+/* footer */
+
+ul.footer {
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+    font-size: 35px;
+}
+
+li.blog {
+    display: inline;
+    text-align: center;
+}
+
+footer {
+    display: inline;    
+    font-size: 35px;
+}
+
+.icon {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* tablet design */
+@media (min-width: 768px) {
+
+    li.blog {
+        text-align: center;
+    }
+
+    #bolt {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    header {
+        padding: 10px 0px 0px 0px;
+        font-size: 25px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .header-item {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #header-menu {
+        display: none;
+    }
+}
+
+/* desktop design */
+@media (min-width: 1024px) {
+    header {
+        width: 100%;
+        justify-content: center;
+    }
+}
