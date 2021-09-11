@@ -1,0 +1,75 @@
+/* animations */
+@keyframes upAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(1rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes downAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes photoAnimation {
+    from {
+        opacity: 0;
+        transform: scale(1.2) translateY(-1rem);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+/* using animations*/
+
+.header-item {
+    animation-duration: 500ms;
+    animation-delay: 300ms;
+    animation-name: downAnimation;
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1.5);
+    animation-fill-mode: both;
+}
+
+.footer {
+    animation-duration: 500ms;
+    animation-delay: 300ms;
+    animation-name: downAnimation;
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1.5);
+    animation-fill-mode: both;
+}
+
+#bolt {
+    animation-duration: 500ms;
+    animation-delay: 300ms;
+    animation-name: downAnimation;
+    animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1.5);
+    animation-fill-mode: both;
+}
+
+#image {
+    animation-delay: 750ms;
+    animation-name: photoAnimation;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0, 0.5, 0, 1);
+    animation-fill-mode: both;
+}
+
+.left {
+    animation-delay: 550ms;
+    animation-name: photoAnimation;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0, 0.5, 0, 1);
+    animation-fill-mode: both;
+}
