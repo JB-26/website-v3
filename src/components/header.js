@@ -2,8 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 import Bolt from "../images/favicon-32x32.png"
 
-export default () => (
-  <header>
+const Header = () => {
+  return (
+    <header>
     <div class="header-item">
       <Link to="/work/" className="blog">Work</Link>
     </div>
@@ -16,4 +17,7 @@ export default () => (
       <Link to="/blog/" className="blog">Blog</Link>
     </div>
   </header>
-)
+  )
+}
+
+export default Header;

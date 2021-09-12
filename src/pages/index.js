@@ -12,6 +12,7 @@ const IndexPage = () => {
     <Helmet>
       <meta charSet="utf-8" />
       <title>Joshua Blewitt - Home</title>
+      <meta name="icon" href="src/images/favicon.ico" />
     </Helmet>
     <Header></Header>
     <div className="content">
@@ -45,4 +46,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default IndexPage;

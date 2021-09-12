@@ -3,7 +3,7 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import { Helmet } from "react-helmet"
 
-export default () => (
+const ErrorPage = () => {
     <div>
         <Helmet>
         <meta charSet="utf-8" />
@@ -17,4 +17,6 @@ export default () => (
         </div>
         <Footer></Footer>
     </div>
-)
+}
+
+export default ErrorPage;
